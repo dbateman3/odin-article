@@ -52,33 +52,65 @@ table {
 .nav {
 	height: 129px;
 	display: block;
-	background-color: blue;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	background-color: #fff;
 
 }
 
-.nav #container {
+.nav #header {
 	height: 47px;
-	background-color: red;
 	position: relative;
+	border-color: #e2e2e2;
 }
 
 .nav #collection {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: green;
 	position: relative;
 	height: 82px;
 }
 
-/* content */
-
-.body {
+.item {
 	display: block;
-	position: relative;
-	background-color: red;
+	float: left;
+	list-style-type: none;
+	height: 82px;
+	width: 240px;
+	padding: 0 4px 0 3px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #e2e2e2;
 }
+
+.item a{
+	font-size: 1rem;
+	line-height: 1.43rem;
+	font-weight: 400;
+	font-style: normal;
+	font-family: georgia, "times new roman";
+	color: #333;
+	text-decoration: none;
+}
+
+
+/* page */
+
+#page {
+	background-color: red;
+	height: 600px;
+}
+
+#page #story {
+	margin: auto;
+	display: block;
+	margin-bottom: 32px;
+	background-color: black;
+	height: 500px;
+	width: 570px;
+	max-width: none;
+}
+

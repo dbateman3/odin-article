@@ -64,9 +64,38 @@ table {
 	height: 47px;
 	position: relative;
 	border-color: #e2e2e2;
+	width: 100%;
+}
+
+.quick-nav {
+	margin-top: 10px;
+	display: inline-block;
+	float: left;
+	left: 15px;
+	position: relative;
+
+}
+
+.user-nav {
+	margin-top: 10px;
+	display: inline-block;
+	float: right;
+	right: 15px;
+	position: relative;
+	
+}
+
+.logo {
+	margin-top: 10px;
+	
+	display: inline-block;
+	margin-left: 150px;
+	text-align: center;
+	
 }
 
 .nav #collection {
+	border-top: 1px solid #ccc;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
@@ -81,7 +110,7 @@ table {
 	height: 82px;
 	width: 240px;
 	padding: 0 4px 0 3px;
-	border-top: 1px solid #ccc;
+	
 	border-left: 1px solid #fff;
 	border-right: 1px solid #e2e2e2;
 }
